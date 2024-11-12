@@ -14,7 +14,7 @@ class CricketScore:
         self.root = root
         self.root.title("LIVE CRICKET SCORE")
         self.root.geometry('800x500')
-        self.bg = ImageTk.PhotoImage(file="background_image.png")
+        self.bg = ImageTk.PhotoImage(file="background_image.jpg")
         bg = Label(self.root, image=self.bg).place(x=0, y=0)
 
         # adding live matches text to gui
